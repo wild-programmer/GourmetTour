@@ -1,0 +1,374 @@
+@charset "UTF-8";
+/*导航开始*/
+/*导航开始*/
+#nav {
+    width: 0px;
+    height: 70px;
+    /*background-color: pink;*/
+    position: fixed;
+    z-index: 20;
+    background-color: white;
+    overflow: hidden;
+    margin-top:5px;
+    margin-left:75px;
+    border-radius:0 10px 10px 0;
+    opacity: 0.8;
+}
+
+#logo {
+    background-color: white;
+    opacity: 0.8;
+    border-radius:10px 0px 0px 10px;
+    background-image:url("../images/logo.png");
+    position: fixed;
+    width: 70px;
+    height:70px;
+    top: 5px;
+    left: 5px;
+    z-index: 20;
+}
+/*#nav #logo span{
+    font:400 20px/70px "microsoft yahei";
+    width: 150px;
+    position: absolute;
+    top: 0px;
+    left: 70px;
+
+}*/
+#nav #navbar{
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 400px;
+}
+
+
+
+#navbar li {
+    width: 80px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    color:#6A6A6A;
+    font:400 18px/70px "microsoft yahei";
+    margin-right: 10px;
+    position:relative;
+}
+
+#navbar span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 70px;
+    background-color: #752a17;
+    opacity: .3;
+    display:none
+}
+
+#navbar ul{
+    position: relative;
+
+}
+/*导航结束*/
+
+
+/*背景图片开始*/
+#box{
+    width:100%;
+    height: 664px;
+    position: relative;
+    overflow: hidden;
+}
+#box .uImg{
+    width: 100%;
+}
+#box .img{
+    width: 100%;
+    height: 664px;
+    position: absolute;
+}
+#box .tab{
+    width: 600px;
+    height: 100px;
+    /*这里设置li时设置定位,设置浮动无法显示*/
+    position: absolute;
+    left:50%;
+    margin-left:-280px;
+    bottom:30px;
+}
+.tab img{
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    opacity: 0.7;
+    margin-left:40px;
+    float: left;
+    border-radius: 20px;
+}
+/*第一部分结束*/
+/*第二部分content开始*/
+.content {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 3%;
+    margin-bottom:20px;
+}
+
+.content h4 {
+    margin-top: 26px;
+    margin-bottom: 5px;
+    font-weight: 900;
+    font-family: "microsoft yahei";
+    color: #2e2e2e;
+    line-height: 1em;
+    font-size: 100px !important;
+}
+
+.content p {
+    display: block;
+    font-size: 24px;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+}
+
+/*content结束*/
+/*第二部分content结束*/
+
+/*share部分开始*/
+#ds{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 100px;
+    background-color: #eeeeee;
+    /*opacity: 0.7;*/
+    /*margin-left:15px;*/
+}
+#ds h4{
+    margin-top: 26px;
+    margin-bottom: 25px;
+    font-weight: 900;
+    font-family: "microsoft yahei";
+    color: #2e2e2e;
+    line-height: 1em;
+    text-align: center;
+    font-size: 70px !important;
+}
+#share1 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin: 50px 50px 0;
+    /*border: 1px solid #000;*/
+    /*background-color: red;*/
+    overflow: hidden;
+}
+
+#share1 #img1 {
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    background-image: url("../images/l1.jpg");
+    background-attachment: fixed;
+    background-position: -70px 0;
+    -webkit-mask-image: url("../images/mask.png");
+}
+
+#share1 #img2 {
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    left: 251px;
+    background-image: url("../images/l2.jpg");
+    background-attachment: fixed;
+    background-position: 40px 0;
+    -webkit-mask-image: url("../images/mask.png");
+}
+
+#share1 #img3 {
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    left: 502px;
+    background-image: url("../images/l3.jpg");
+    background-position: 459px 54px;
+    background-attachment: fixed;
+    -webkit-mask-image: url("../images/mask.png");
+}
+
+#share1 #img4 {
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    left: 753px;
+    background-image: url("../images/l14.jpg");
+    background-position: 604px -108px;
+    background-attachment: fixed;
+    -webkit-mask-image: url("../images/mask.png");
+}
+
+#share1 #img5 {
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    left: 1004px;
+    background-image: url("../images/l5.jpg");
+    background-position: 832px -137px;
+    background-attachment: fixed;
+    -webkit-mask-image: url("../images/mask.png");
+}
+
+#share2 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+
+    margin: -132px 176px 0;
+    /*margin: 100px auto;*/
+    /*border: 1px solid #000;*/
+    /*background-color: red;*/
+    overflow: hidden;
+}
+
+#share2 #img01 {
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    background-image: url("../images/l6.jpg");
+    background-attachment: fixed;
+    background-position: -70px 0;
+    -webkit-mask-image: url("../images/mask.png");
+}
+
+#share2 #img02 {
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    left: 251px;
+    background-image: url("../images/l7.jpg");
+    background-attachment: fixed;
+    background-position: -270px 0;
+    -webkit-mask-image: url("../images/mask.png");
+}
+
+#share2 #img03 {
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    left: 502px;
+    background-image: url("../images/l4.jpg");
+    background-position: 550px 54px;
+    background-attachment: fixed;
+    -webkit-mask-image: url("../images/mask.png");
+}
+
+#share2 #img04 {
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    left: 753px;
+    background-image: url("../images/l13.jpg");
+    background-position: 300px -108px;
+    background-attachment: fixed;
+    -webkit-mask-image: url("../images/mask.png");
+}
+
+#share3 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin: -133px 301px 0;
+    /*border: 1px solid #000;*/
+    /*background-color: red;*/
+    overflow: hidden;
+}
+
+#share3 #img001 {
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    background-image: url("../images/l10.jpg");
+    background-attachment: fixed;
+    background-position: -50px -3px;
+    -webkit-mask-image: url("../images/mask.png");
+}
+
+#share3 #img002 {
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    left: 251px;
+    background-image: url("../images/l11.jpg");
+    background-attachment: fixed;
+    background-position: -100px 0;
+    -webkit-mask-image: url("../images/mask.png");
+}
+
+#share3 #img003 {
+    width: 250px;
+    height: 400px;
+    position: absolute;
+    left: 502px;
+    background-image: url("../images/l12.jpg");
+    background-position: 600px 54px;
+    background-attachment: fixed;
+    -webkit-mask-image: url("../images/mask.png");
+}
+/*share部分结束*/
+
+/*footer开始*/
+#footer{
+    width: 100%;
+    height: 250px;
+    background-color: #000000;
+    opacity: 0.2;
+    position: relative;
+}
+#footer #dd{
+    width: 400px;
+    height: 250px;
+    /*background-color: skyblue;*/
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+#footer #dd li{
+    display: block;
+    width: 400px;
+    height: 40px;
+    /*font:400 20px/20px "microsoft yahei";*/
+    color:#ffffff;
+    padding-left:40px ;
+    padding-top:20px;
+    /*text-align: center;*/
+    font-size:24px;
+}
+#footer #dd li.size{
+    font-size:34px;
+}
+#footer #dt{
+    width: 600px;
+    height: 250px;
+    /*background-color: pink;*/
+    position: absolute;
+    top: 30px;
+    left: 600px;
+}
+#footer #dt span{
+    width: 600px;
+    height: 40px;
+    color:#ffffff;
+    padding-left:40px ;
+    padding-top:20px;
+    /*text-align: center;*/
+    font-size:24px;
+    display: block;
+}
+#footer #dt span.liuyan{
+    font-size: 34px;
+}
+/*footer结束*/
